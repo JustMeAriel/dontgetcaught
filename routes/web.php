@@ -19,22 +19,12 @@ Route::get('/2024', function () {
 
 
 });
+
 Route::get('/', function () {
-    return view('index1');
-
-
-});
-Route::get('/welcome', function () {
     return view('test');
 
 
 });
-
-Route::get('/controller', [GaleriController::class, 'controller'])->name('galeri.controller');
-Route::get('/model', [GaleriController::class, 'model'])->name('galeri.model');
-Route::get('/migration', [GaleriController::class, 'migration'])->name('galeri.migration');
 Route::get('/command', [GaleriController::class, 'command'])->name('galeri.command');
-Route::get('/route', [GaleriController::class, 'route'])->name('galeri.route');
-Route::get('/view', [GaleriController::class, 'view'])->name('galeri.view');
-Route::get('/layouts', [GaleriController::class, 'layouts'])->name('galeri.layouts');
+
 

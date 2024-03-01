@@ -41,13 +41,25 @@
 
     <div class="card shadow">
         <div class="card-body">
-            <h5>Command Untuk Membuat Controller</h5>
+            <h5>Command Untuk Membuat GaleriController</h5>
             <div class="mb-3 d-flex justify-content-end">
                 <button class="btn btn-primary" onclick="copyCode('codeSnippet4', 'copyButton4')">
                     <i class="bi bi-copy"></i>
                 </button>
             </div>
             <pre><code id="codeSnippet4">php artisan make:controller GaleriController</code></pre>
+        </div>
+    </div>
+
+    <div class="card shadow">
+        <div class="card-body">
+            <h5>Command Untuk Membuat AuthController</h5>
+            <div class="mb-3 d-flex justify-content-end">
+                <button class="btn btn-primary" onclick="copyCode('codeSnippet7', 'copyButton7')">
+                    <i class="bi bi-copy"></i>
+                </button>
+            </div>
+            <pre><code id="codeSnippet7">php artisan make:controller AuthController</code></pre>
         </div>
     </div>
 

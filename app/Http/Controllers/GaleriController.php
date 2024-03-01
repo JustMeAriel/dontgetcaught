@@ -10,9 +10,9 @@ class GaleriController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function controller()
+    public function galericontroller()
     {
-        return view('galeri.controller');
+        return view('galeri.galericon');
     }
 
     /**
@@ -61,16 +61,16 @@ class GaleriController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function authcontroller()
     {
-        //
+        return view('galeri.authcon');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function galindex()
     {
-        //
+        return view('galeri.galindex');
     }
 }
