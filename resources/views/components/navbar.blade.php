@@ -14,7 +14,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="{{ route('galeri.command') }}">Command</a></li>
-            <li><a class="dropdown-item" href="https://raw.githubusercontent.com/JustMeAriel/web-galeri-laravel/main/database/migrations/2024_02_04_111459_create_table_galeri.php">Migration</a></li>
+            <li><a class="dropdown-item" href="https://raw.githubusercontent.com/JustMeAriel/dontgetcaught/main/database/migrations/2024_02_20_014911_create_galeri.php">Migration</a></li>
             <li><a class="dropdown-item" href="https://raw.githubusercontent.com/JustMeAriel/web-galeri-laravel/main/app/Models/Galeri.php">Model</a></li>
             <li><a class="dropdown-item" href="https://raw.githubusercontent.com/JustMeAriel/web-galeri-laravel/main/routes/web.php">Routes</a></li>
           </ul>

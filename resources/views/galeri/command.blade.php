@@ -47,7 +47,7 @@
                     <i class="bi bi-copy"></i>
                 </button>
             </div>
-            <pre><code id="codeSnippet4">php artisan make:controller GaleriController</code></pre>
+            <pre><code id="codeSnippet4">php artisan make:controller GaleriController --resource</code></pre>
         </div>
     </div>
 
